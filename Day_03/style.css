@@ -1,14 +1,14 @@
 *{
-    margin: 0;
+    margin: 0 8px 0 0;
     padding: 0;
-    font-family:'Poppins',sans-serif;
+    font-family:'Times New Roman', Times, serif;
     box-sizing:border-box;
     
 }
 body{
     background-color: #2b2221;
-    color: #fff;
-    background-image: url('media/bgrnd.jpeg');
+    color: #bdaeae;
+    background-image: url('media/Bkgrnd.jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -30,37 +30,126 @@ nav{
     width:90px;
     border-radius: 400px;
 }
+.logo-side{
+    font-size: 35px;
+    color:red;
+}
 nav ul li{
     display: inline-block;
-    list-style: none;
-    margin:10px 20px;
+    list-style:georgian;
+    margin:10px 50px;
 }
 nav ul li a{
     color:#fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 25px;
     font-family:'Times New Roman', Times, serif;
 }
 
 footer{
     position: sticky;
     text-align: center;
-    color: whitesmoke;
+    color: #bdaeae;
     bottom: 0;
     right: 0;
 }
 .header-text{
-    margin-top: 20%;
+    margin:300px 0  0 900px;
     font-size: 50px;
-    text-align: right;
+    justify-content: right;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.header-text h1{
+.header-text h1 {
     font-size:60px;
-    margin-top: 20px;
-    color:whitesmoke;
+    margin-top: 10px;
+    color:#bdaeae;
 }
-.header-text h1 span{
+.header-text h1  span{
     color:red;
 }
-/* ------about section------*/
+/* -- about section ---*/
+.header-about-text{
+    margin:35px 0  0 900px;
+    font-size: 40px;
+    justify-content: right;
+    font-family:'Times New Roman', Times, serif;
+}
+.header-text h2 {
+    font-size:60px;
+    margin-top: 20px;
+    color:#bdaeae;
+}
+.header-about-text h5{
+    color:red;
+}
+.header-about-text p {
+    font-size:30px;
+    color:#bdaeae;
+}
+.header-about-text p  span{
+    color:rgb(29, 212, 212);
+    font-size:30px
+}
+/*--------project section-----*/
+.project-text{
+    margin:35px 0  0 900px;
+    font-size: 40px;
+    justify-content: right;
+    font-family:'Times New Roman', Times, serif;
+}
+.project-text h2{
+    color:#bdaeae
+}
+.project-text h3{
+    color:red;
+}
+.project-text h4{
+    color:red;
+}
+.project-text h3 span{
+    color:#bdaeae;
+}
+.project-text p span{
+    color:red;
+}
+.project-text p{
+    color:#bdaeae;
+    font-size: 30px ;
+}
+/* ------Contact section------*/
+.header-contact-text{
+    margin:35px 0  0 900px;
+    font-size: 30px;
+    justify-content: right;
+    font-family:'Times New Roman', Times, serif;
+}
+.contact-form{
+    flex-basis: 60%;
+    width: 40%;    
+}
+form input, form textarea{
+    width: 100%;
+    align-items: right;
+    border: 0;
+    outline: none;
+    background: #5f5a5a73;
+    padding: 15px;
+    color:#bdaeae;
+    margin:10px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.btn.btn2{
+    display: inline-block;
+    background: red;
+    margin:10px;
+    margin-left:100px;
+    padding-top: 15px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    padding-right: 25px;
+    font-size: 100%;
+    border-style: double;
+    border-radius: 15%;
+
+}
