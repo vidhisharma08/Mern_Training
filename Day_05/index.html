@@ -78,7 +78,32 @@
     <!--For loop-->
 
     <script>
-        
+        var obj={
+            name: "John",
+            age: 30
+        }
+        for(var x in obj){
+            console.log(x + " : "+obj[x])
+        }
+        for(var i=0;i<10;i++){
+            console.log(i)
+        }
+        for(var i=5;i>=0;i--){
+            console.log(" ".repeat(i)+"*".repeat(2*(5-i)+1))
+        }
+        for(var i=0;i<=5;i++){
+            console.log(" ".repeat(i)+"*".repeat(2*(5-i)+1)+" ".repeat(i))
+        }
+    </script>
+
+    <!--fibonacci series-->
+
+    <script>
+        for(var i=0;i<10;i++){
+
+            var n=i
+            console.log((i+1)+n)
+        }
     </script>
 </body>
 </html>
